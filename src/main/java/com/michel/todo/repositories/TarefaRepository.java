@@ -13,12 +13,12 @@ import com.michel.todo.models.Tarefa;
 @Repository
 public interface TarefaRepository extends JpaRepository<Tarefa, Long> {
 	
-	@Query("SELECT new com.michel.todo.models.Tarefa (t.id, t.content, t.completed, t.prioridade, t.usuario) from Tarefa t "
+	@Query("SELECT new com.michel.todo.models.Tarefa (t.id, t.descricao, t.completada, t.prioridade, t.usuario) from Tarefa t "
 			+ " inner join t.usuario u "
-			+ " where t.completed = false and (:prioridade is null or prioridade = :prioridade) and u.id = :usuarioID")
+			+ " where t.completada = false and (:prioridade is null or prioridade = :prioridade) and u.id = :usuarioID")
 	public List<Tarefa> findByUser(Long usuarioID, Integer prioridade);
 	
-	@Query("SELECT new com.michel.todo.models.Tarefa (t.id, t.content, t.completed, t.prioridade, t.usuario) from Tarefa t "
+	@Query("SELECT new com.michel.todo.models.Tarefa (t.id, t.descricao, t.completada, t.prioridade, t.usuario) from Tarefa t "
 			+ " inner join t.usuario u "
 			+ " where u.email = :email and t.id = :tarefaID ")
 	public Tarefa isAutorTarefa(String email, Long tarefaID);
