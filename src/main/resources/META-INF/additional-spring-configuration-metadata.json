@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.mvc.pathpattern.matching-strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mvc.pathpattern.matching-strategy'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  }
+]}
