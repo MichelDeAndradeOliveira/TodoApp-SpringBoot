@@ -1,4 +1,5 @@
 # TodoApp-SpringBoot
+O projeto foi criado utilizando Java11, SpringBoot, autenticação de usuário utilizando JWT, com OpenApi utilizando Swagger.
 
 Tools Used:
   STS 4,
