@@ -12,8 +12,7 @@ Prerequisites:
 *  Java11
 
 Installation
-  Download the repo,Open CMD in the directory, then write the command " mnv clean install package "
-  Or in the STS4 simply run with Boot Dashboard
+  Download the repo, In the STS4 simply run with Boot Dashboard
 
 Roadmap:
 * Add Email validation
