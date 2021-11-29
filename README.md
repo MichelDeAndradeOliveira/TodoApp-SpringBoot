@@ -1,6 +1,8 @@
 # TodoApp-SpringBoot
 O projeto foi criado utilizando Java11, SpringBoot, autenticação de usuário utilizando JWT, com OpenApi utilizando Swagger.
 
+Criei o projeto seguindo um artigo do site Medium, https://medium.com/wolox/securing-applications-with-jwt-spring-boot-da24d3d98f83, deste link pois ainda não possuo uma experiência grande com JWT, o próximo passo seria utilizar um sistema mais complexo de autenticação.
+
 Tools Used:
   STS 4,
   Postman
